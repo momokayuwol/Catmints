@@ -1,0 +1,8 @@
+from selenium import webdriver
+driver = webdriver.Chrome
+driver = webdriver.Chrome("C:\\Users\\pc\\AppData\\Local\\Programs\\Python\\Python35-32\\chromedriver")
+
+driver.get("http://www.87870.com/");
+
+driver.find_element_by_id("login-pop").click()
+driver.find_element_by_id("username").click()
