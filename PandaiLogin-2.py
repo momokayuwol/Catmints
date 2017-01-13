@@ -23,5 +23,7 @@ if "34324234234" in name:
 else:
     print("false")
 
+driver.quit()
+
 #result = driver.find_element_by_id("login-form").text
 #print (result)
